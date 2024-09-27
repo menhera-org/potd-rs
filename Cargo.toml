@@ -4,15 +4,13 @@ version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0 OR MPL-2.0"
 readme = "README.md"
+authors = ["metastable-void"]
 repository = "https://github.com/menhera-org/potd-rs"
 description = "Retrieve Picture of the Day feed from Wikimedia Commons"
 homepage = "https://github.com/menhera-org/potd-rs"
 
 [dependencies]
 reqwest = "0.12.7"
-#dbus = { version = "0.9.7", features = ["vendored"] }
-#dbus-tokio = "0.7.6"
-openssl = { version = "*", features = ["vendored"] }
 tokio = { version = "1", features = ["full"] }
 quick-xml = "0.36.2"
 log = "0.4.22"
